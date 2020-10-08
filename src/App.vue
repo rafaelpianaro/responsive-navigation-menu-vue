@@ -7,7 +7,7 @@
   <div id="app">
     <ResponsiveNavigation
 		:nav-links="navLinks"
-		:image-path="require('./assets/logo.png')"
+		:image-path="require('@/assets/logo.png')"
 		background="#fff"
 		link-color="#777"
 		hoverBackground="#ddd"
@@ -17,8 +17,8 @@
 </template>
 
 <script>
-
 import ResponsiveNavigation from '@/components/ResponsiveNavigation'
+
 export default {
   components: {
     ResponsiveNavigation
@@ -52,7 +52,9 @@ export default {
 
 
 <style lang='scss'>
-@import 'https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css';
+// @import 'https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css';
+// @import '';
+// https://youtu.be/FmUXa1w3T84
 
 // @import 'icons/ionicons.min.css';
 figure {
