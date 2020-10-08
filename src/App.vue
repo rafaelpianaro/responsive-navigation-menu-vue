@@ -14,7 +14,7 @@
 
 <script>
 
-import ResponsiveNavigation from './components/ResponsiveNavigation'
+import ResponsiveNavigation from '@/components/ResponsiveNavigation'
 export default {
   data(){
     return {
@@ -49,7 +49,17 @@ export default {
 </script>
 
 
-<style>
+<style lang='scss'>
+@import 'https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css';
+figure {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 10px;
+	margin-inline-end: 0;
+}
+body {
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
